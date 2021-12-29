@@ -1,0 +1,13 @@
+type AgreementTransfer @entity {
+  id: ID!
+  signature: String!
+  contract: Bytes!
+  from: Bytes!
+  to: Bytes!
+  value: BigInt!
+  timestamp: BigInt!
+  blockHash: Bytes!
+  blockNumber: BigInt!
+  transactionHash: Bytes!
+  logIndex: BigInt!
+}
